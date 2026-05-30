@@ -51,7 +51,7 @@ export default function HeroSection() {
                                     variant="outline"
                                     size="lg"
                                     className="rounded-lg px-10 py-6 h-auto text-base font-bold border-muted-foreground/20 hover:bg-muted/10">
-                                    <Link href="/chat">
+                                    <Link href="/https://wa.me/2349051609062">
                                         Get Started for Free
                                     </Link>
                                 </Button>
