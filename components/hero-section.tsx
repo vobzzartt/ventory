@@ -42,7 +42,7 @@ export default function HeroSection() {
                             </h1>
                             
                             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-12">
-                                Ventory is an intelligent, voice-first business assistant designed for small and medium enterprises. Log transactions, monitor stock levels, and get instant summaries just by talking.
+                                Ventory is an artificial intelligent (AI), voice-first business assistant designed for small and medium enterprises. Log transactions, monitor stock levels, and get instant summaries just by talking.
                             </p>
 
                             <div className="flex flex-col items-center justify-center gap-4 md:flex-row mb-24">
