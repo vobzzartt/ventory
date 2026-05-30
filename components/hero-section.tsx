@@ -52,7 +52,7 @@ export default function HeroSection() {
                                     size="lg"
                                     className="rounded-lg px-10 py-6 h-auto text-base font-bold border-muted-foreground/20 hover:bg-muted/10">
                                     <Link href="/chat">
-                                        Try Our AI
+                                        Get Started for Free
                                     </Link>
                                 </Button>
                                 <Button
