@@ -7,7 +7,9 @@ import fs from 'fs'
 import path from 'path'
 import { supabase } from '@/lib/supabase'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+export const dynamic = 'force-dynamic';
+
+const resend = new Resend(process.env.RESEND_API_KEY || 're_placeholder')
 
 export async function POST(req: NextRequest) {
   try {

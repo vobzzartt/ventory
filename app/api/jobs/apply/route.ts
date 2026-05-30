@@ -2,7 +2,9 @@ import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { jobApplicantEmailTemplate, jobAdminEmailTemplate } from '@/lib/emails/job-templates'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+export const dynamic = 'force-dynamic';
+
+const resend = new Resend(process.env.RESEND_API_KEY || 're_placeholder')
 
 export async function POST(req: NextRequest) {
   try {
