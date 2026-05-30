@@ -37,9 +37,11 @@ export default function HeroSection() {
                                 SME Business Assistant
                             </motion.div>
                             
-                            <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8">
-                                Talk to Your Shop. Track Your Sales.
-                            </h1>
+                           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8">
+    Talk to Your Shop. <br /> 
+    Track Your Sales.
+</h1>
+
                             
                             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-12">
                                 Ventory is an artificial intelligent (AI), voice-first business assistant designed for small and medium enterprises. Log transactions, monitor stock levels, and get instant summaries just by talking.
